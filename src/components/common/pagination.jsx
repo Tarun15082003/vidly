@@ -18,12 +18,12 @@ class Pagination extends Component {
               }
               key={page}
             >
-              <a
+              <span
                 className="page-link"
                 onClick={() => this.props.onPageChange(page)}
               >
                 {page}
-              </a>
+              </span>
             </li>
           ))}
         </ul>
